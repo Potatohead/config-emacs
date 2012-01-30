@@ -1,8 +1,13 @@
+(add-to-list 'load-path "~/.emacs.d")
+
+;; Enable a backtrace when problems occur
+;; (setq debug-on-error t)
+
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-(setq custom-file "~/.emacs.d/etc/custom.el")
+(setq custom-file "~/.emacs.d/init/custom.el")
 (load custom-file 'noerror)
 
-(load "etc/defuns")
+(load "init/defuns")
 
-(vendor 'evil)
+(vendor 'evil     'evil-mode)
