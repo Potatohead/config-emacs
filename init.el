@@ -10,4 +10,4 @@
 
 (load "init/defuns")
 
-(vendor 'evil     'evil-mode)
+(vendor 'evil)
