@@ -9,5 +9,6 @@
 (load custom-file 'noerror)
 
 (load "init/defuns")
+(load "init/global")
 
 (vendor 'evil)

@@ -1,6 +1,6 @@
 abbrev_defs
 auto-save-list
-backups
+backup
 tramp
 etc/private.el
 .org-id-locations
