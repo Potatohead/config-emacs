@@ -10,6 +10,9 @@
 ;; Modeline info
 (display-time-mode 1)
 
+;; Gotta see matching parens
+(show-paren-mode t)
+
 ;; Relocate backup files
 (defvar backup-dir (expand-file-name "~/.emacs.d/backup/"))
 (setq backup-directory-alist (list (cons ".*" backup-dir)))
