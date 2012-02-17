@@ -8,6 +8,7 @@
 (setq custom-file "~/.emacs.d/init/custom.el")
 (load custom-file 'noerror)
 
+(load "init/theme")
 (load "init/defuns")
 (load "init/global")
 
