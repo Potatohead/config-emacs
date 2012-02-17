@@ -3,6 +3,10 @@
 ;; "y or n" instead of "yes or no"
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; Display line and column numbers
+(setq line-number-mode t)
+(setq column-number-mode t)
+
 ;; Relocate backup files
 (defvar backup-dir (expand-file-name "~/.emacs.d/backup/"))
 (setq backup-directory-alist (list (cons ".*" backup-dir)))
