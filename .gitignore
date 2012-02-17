@@ -4,3 +4,4 @@ backup
 tramp
 etc/private.el
 .org-id-locations
+*.swp
