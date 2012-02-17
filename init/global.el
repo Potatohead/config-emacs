@@ -7,6 +7,9 @@
 (setq line-number-mode t)
 (setq column-number-mode t)
 
+;; Modeline info
+(display-time-mode 1)
+
 ;; Relocate backup files
 (defvar backup-dir (expand-file-name "~/.emacs.d/backup/"))
 (setq backup-directory-alist (list (cons ".*" backup-dir)))
